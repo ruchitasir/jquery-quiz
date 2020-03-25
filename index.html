@@ -2,13 +2,46 @@
 <html>
 <head>
   <title>JQuery Quiz</title>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-  <h1>Quiz Time!</h1>
+  <h1>Who's That Pokemon?</h1>
   <!-- TODO: ADD YOUR HTML CODE HERE -->
+  <div id="intro">
+    <p>This is what our quiz is about</p>
+  </div>
   
+  <div id="prompt"></div>
+  <div id="selection">
+    <form class="form" id="form">
+      
+      <input class="answer" type="radio" name="choice" id="0" />
+      <label for="one"></label>
+​
+      <input class="answer" type="radio" name="choice" id="1" />
+      <label for="two"></label>
+​
+      <input class="answer" type="radio" name="choice" id="2" />
+      <label for="three"></label>
+      
+      <input class="answer" type="radio" name="choice" id="3" />
+      <label for="four"></label>
+      <br />
+      <button class="next" type="submit" id="submit">Next</button>
+  </form>
+  </div>
+  <div id="result"></div>
+​
+  <div id="begin">
+    <button type="button" id="start">Start Quiz</button>
+  </div>
   <!-- TODO: ADD JQUERY DEPENDENCY -->
+  <!--resources-->
+  <audio id="music" src="sounds/pokemonmusic.mp3"></audio>
+  
   <!-- TODO: ADD YOUR JS FILES -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+  <script src="./script.js"></script>
 </body>
 </html>

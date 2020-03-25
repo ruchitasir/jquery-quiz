@@ -1,10 +1,131 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
-h1 {
-  color: chartreuse;
-  text-align: center;
-}
+@font-face {
+    font-family: 'pokemon_hollownormal';
+    src: url('fonts/pokemon_hollow-webfont.woff2') format('woff2'),
+         url('fonts/pokemon_hollow-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  @font-face {
+    font-family: 'pokemon_solidnormal';
+    src: url('fonts/pokemon_solid-webfont.woff2') format('woff2'),
+         url('fonts/pokemon_solid-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: url(https://files.pokefans.net/fanart/uploads/u4640/f30245.gif);
+  }
+  
+  h1 {
+    color: #ffcb05;
+    text-align: center;
+    font-size: 60px;
+    padding: 30px;
+    width: 80%;
+    margin: 40px auto 80px auto;
+    border-radius: 30px;
+    font-family: 'pokemon_solidnormal';
+    text-shadow:  -5px 5px 5px #2a75bb, 5px 5px 5px #2a75bb, 5px -5px 5px #2a75bb, -5px -5px 5px #2a75bb;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #3c5aa6;
+    
+  }
+  
+  button {
+    font-size: 24px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    width: 160px;
+    background-color: blue;
+    margin: 30px auto;
+    color: white;
+    font-family: 'Press Start 2P', regular;
+  
+  }
+  
+  #prompt {
+    font-size: 30px;
+    color: #ffcb05;
+    font-family: 'Press Start 2P';
+    text-shadow: 3px 3px 2px #3c5aa6;
+    margin: 40px auto;
+    width: 600px;
+    text-align: center;
+  }
+  label {
+    font-size: 18px;
+    text-shadow: 3px 3px 2px #ffcb05;
+    border-radius: 10px 0;
+    padding: 5px;
+    font-family: 'Press Start 2P';
+    margin: 10px;
+  }
+  
+  .selection {
+    margin: 0 auto;
+    width: 60%
+  }
+  
+  #intro {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    color: #ffcb05;
+    font-family: 'Press Start 2P';
+    text-shadow: 3px 3px 2px #3c5aa6;
+  }
+  p {
+    font-size: 20px;
+    color: white;
+  
+  }
+  
+  .answer {
+    margin: 15px 10px;
+    
+  }
+  
+  .next {
+    
+  }
+  
+  .form {
+    margin: 0 auto;
+    display: none;
+    width: 600px;
+  }
+  
+  #result {
+    width: 1000px;
+    text-align: justify;
+    font-family: 'Press Start 2P';
+    color: black;
+    margin: 0 auto;
+    text-shadow: 3px 3px 2px #ffcb05;
+  }
+  
+  .resultChildClass {
+    margin: 0 auto;
+    font-size: 18px;
+  }
+  
+  .quizScoreClass {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 30px;
+  }
+  #begin {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #start {
+    width: 300px;
+  }
